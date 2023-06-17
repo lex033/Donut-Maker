@@ -1,0 +1,15 @@
+li {
+    list-style: none
+}
+
+header nav ul {
+    height: 6rem;
+    background-color: #c5291e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/004/595/007/original/red-and-white-background-design-flat-and-minimalist-background-design-illustration-free-vector.jpg");
+}

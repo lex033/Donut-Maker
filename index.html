@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fred the Baker Baking Company</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><button onclick="about()">
+                    Fred the Baker Baking Company
+                </button></li>
+                <li><button onclick="inspiration()">
+                    Inspiration
+                </button></li>
+                <li><button onclick="contactMe()">
+                    Contact Info
+                </button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hiddenInfo">
+        <section id="about" hidden>
+            <h3>About Us</h3>
+            <p>Fred the Baker has been making donuts for 40 years. He would love you to make donuts along with him </p>
+        </section=>
+
+        <section id="inspiration" hidden>
+            <h3>Inspiration</h3>
+            <p>This is inspired by the original Cookie Clicker Game</p>
+            <button>
+                <a href="https://orteil.dashnet.org/cookieclicker/" target="_blank">Cookie Clicker</a>
+            </button>
+        </section>
+
+        <section id="contactInfo" hidden>
+            <h3>Contact Info</h3>
+                <section class="Email">
+                    <img src="https://www.freeiconspng.com/thumbs/email-icon/email-icon--clipart-best-22.png" alt="Email">anlarkins33@yahoo.com</section>
+                <section class="LinkedIn">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png" alt="LinkedIn">
+                    <a href="https://www.linkedin.com/in/alexis-larkins-195a85a1/" target="_blank">LinkedIn</a></section>
+                <section class="GitHub">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" alt="GitHub">
+                    <a href="https://github.com/lex033" target="_blank">GitHub</a></section>
+        </section>
+    </div>
+
+    <main>
+        <section>
+            <button id="submit" class="btn">
+                <img id="clicker"  src="https://spicecravings.com/wp-content/uploads/2021/01/Red-Velvet-Donuts-Featured-1-500x375.jpg" alt="donuts" />
+            </button>
+
+            <p>Donut Count: <span id="tracker" >0</span></p>
+
+        </section>
+
+        <hr>
+
+        <section >
+            <div id="update" class="updateHere">
+
+                <p>AutoClickers Purchased: <span id="autoTracker">0</span>
+
+                </p>
+                <p>Donut Clicker upgrade: <span id="cost"></span></p>
+
+                <button id="autoClicker" class="btn">
+                Purchase AutoClicker
+                </button>
+            </div>
+        </section>
+
+        <hr>
+    </main>
+
+    <div>
+        <button id="clear" type="reset">Reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
